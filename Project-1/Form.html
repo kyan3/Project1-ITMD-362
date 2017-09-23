@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  
+  <title>Free Cookies</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0 shrink-to-fit=no"/>
+  <link rel="stylesheet" media="screen" href="screen.css" />
+  <script type="text/javascript" src="project1.js"></script>
+  <!-- ask user to sign up for free cookies -->
+  
+</head>
+  <fieldset>
+  <h1> 
+	  Sign up for FREE cookies
+  </h1>
+  <p>
+	  Sign up today for you free cookies to be sent to you free of charge
+  </p>
+  <body>
+
+    <form method="post" name ="myForm" onsubmit= "return(validate());" >
+	
+	  <lable>First Name: *</label>
+      <input type="text" name="fname" placeholder="John" >
+      <br>
+	  <lable>Last Name: *</label>
+      <input type="text" name="lname" placeholder="Doe">
+      <br>
+	  <lable>Email: *</label>
+      <input type="text" name="email" placeholder="Johndoe@gmail.com">
+      <br>
+      <lable>Phone Number: *</label>
+      <input type="text" name="pnum" placeholder="312-123-231">
+	  <br>
+      <lable>Date Of Birth: *<label>
+      <input type="text" name="dob" placeholder="DD/MM/YYYY">
+	  <br>
+	  <lable>Gender: *<label>
+	  <select name="gender">
+                     <option value="-1" selected>[choose yours]</option>
+                     <option value="1">Male</option>
+                     <option value="2">Female</option>
+      </select>
+      <br>
+	  <p>* Field is required </p>
+      <input type="submit" value="Submit">
+    </fieldset>
+    </form> 
+
+  </body>
+  
+</html>
