@@ -1,5 +1,28 @@
   <!-- -->
 
+  body
+  {
+	  background-image: url("Cookies.jpg");	
+	  
+  }
+
+  h1
+  {
+
+  }
+  
+  p
+  {
+	  
+  }
+  
+  fieldset
+  {
+	    //background-color: white;
+		background: rgba(255, 249, 192, 0.7); 
+	  
+  }
+  
   
   <!-- below is the normalized css -->
 /* http://meyerweb.com/eric/tools/css/reset/ 
