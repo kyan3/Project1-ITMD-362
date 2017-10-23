@@ -101,28 +101,57 @@ hr {
 input, select {
   vertical-align:middle;
 }
-/* ################################################*/
-/* personal css code*/
 
-	body
+/* ################################################*/
+/* personal css code starts here*/
+/* ################################################*/
+
+	body /*cookie background*/
 	{
-	 background-image: url("Cookies.jpg");	
-	 text-align: center;
+		background-image: url("Cookies.jpg");	
+		text-align: center;
 	}
 	
-	.outline
+	p1
 	{
-	margin-top: 50px;
-	margin-left: 50px;
-    margin-right: 50px;
-	padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+		margin-top:    10px;	
+		margin-bottom: 10px;
+		display:block;
+	}
+
+	.test
+	{
+		margin-top:	   10px;	
+		margin-bottom: 10px;
+	}
 	
-	/* add transparency to box*/
-	background-color: white;
-	background: rgba(255, 249, 192, 0.7); 
+	.gender /*gender field*/ 
+	{
+		margin-top:    10px;	
+		margin-bottom: 10px;	
+	}
+	
+	input[type=text] /*main form fields*/ 
+	/*also the text inside the input box*/
+	{
+		max-width: 300px;
+		width: 50%;
+		padding: 12px 20px;
+		display:inline-block;
+	}
+	
+	.outline /*the back plate for the text*/
+	{
+		margin-top: 	50px;
+		margin-left: 	50px;
+		margin-right: 	50px;
+		padding-top:	50px;	
+		padding-bottom: 50px;
+		padding-right:  50px;
+		padding-left: 	50px;
+		/* add transparency to box*/
+		background-color: white;
+		background: rgba(255, 249, 192, 0.7); 
 	}
   
 	@media only screen and (max-width: 768px) 
